@@ -7,10 +7,18 @@
 </p>
 
 
-The top level overview of the designed system is shown below. Note that this repository solely concerns digital subsystems. Information regarding analogue subsystems can be found in the thesis.
+The top level overview of the designed system is shown below. Note that this repository solely concerns digital subsystems (blocks contained within the light blue background in the figure below). Information regarding analogue subsystems can be found in the thesis.
 
 ![image](https://github.com/ojandl/BEng-Light-in-the-Museum/assets/147755709/b54069c1-cf0c-4e08-94c1-e1fd5831fb05)
 
 **Navigation**
 + Rx
+  + Source codes for reconstructing Vivado project for the receiver FPGA
 + Tx
+  + Source codes for reconstructing Vivado project for the transmitter FPGA
++ Abstract
+  + Thesis abstract giving an overview to the 'Light in the Museum' project as well as the methodology, results and achievements
++ Documentation
+  + Instructions, required software, hardware used,...
+
+Please consult the README.md file found within the corresponding subdirectory for further details about each section.
