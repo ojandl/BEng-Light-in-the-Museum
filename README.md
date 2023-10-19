@@ -16,9 +16,7 @@ The top level overview of the designed system is shown below. Note that this rep
   + Source codes for reconstructing Vivado project for the receiver FPGA
 + Tx
   + Source codes for reconstructing Vivado project for the transmitter FPGA
-+ Abstract
-  + Thesis abstract giving an overview to the 'Light in the Museum' project as well as the methodology, results and achievements
 + Documentation
-  + Instructions, required software, hardware used,...
+  + Instructions, required software, hardware used, thesis abstract,...
 
 Please consult the README.md file found within the corresponding subdirectory for further details about each section.
