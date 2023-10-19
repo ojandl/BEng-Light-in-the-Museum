@@ -14,7 +14,7 @@ The top level overview of the designed system is shown below. Note that this rep
 **Navigation**
 + Rx
   + Source codes (Verilog) for reconstructing Vivado project for the receiver FPGA
-  + Software code (C) running on Microblaze core
+  + Software code (C) running on Zynq PS
 + Tx
   + Source codes for reconstructing Vivado project for the transmitter FPGA
   + Software code (C) running on Microblaze core
