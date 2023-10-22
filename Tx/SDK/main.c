@@ -75,20 +75,11 @@ int main (void){
 
     	for(j = 0; j < 1000000; j++){
 
-			trig_new = (Xil_In32(0x44A00084) & 0x00000100);
-		    trig = trig_new;
+		trig_new = (Xil_In32(0x44A00084) & 0x00000100);
+  		trig = trig_new;
 
 
-//			while(trig_new == trig){
-//				trig_new = (Xil_In32(0x44A00084) & 0x00000100);
-//			}
-//
-//			input = Xil_In32(0x44A00084) & 0x000000FF;
-//			sprintf(buf, "%d", input);
-//			print(buf);
-//			print("\n\r");
-
-		    input = 220;
+		input = 220;
 
 
 			if (input == 220) {
@@ -126,8 +117,6 @@ int main (void){
 				fifo_wait();
 
 			}
-//			sleep(20);
-//			Xil_Out32(0x44A00000, 0xFFFFFFFF);
     	}
 
 
