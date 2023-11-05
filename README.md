@@ -23,5 +23,5 @@ The top level overview of the designed system is shown below. Note that this rep
 
 Please consult the README.md file found within the corresponding subdirectory for further details about each section.
 
-**Required Software**
+**Required Software**<br>
 During Light in the Museum, the software package Vivado 2019.1 from Xilinx was used for hardware programming. Xilinx SDK 2019.1 was then used to create the necessary softwawre. These programs are available from the Download section of the Xilinx website.
