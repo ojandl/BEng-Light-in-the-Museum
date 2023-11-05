@@ -1,0 +1,13 @@
+This project, entitled Light in the Museum, demonstrates the potential of Visible Light Communication (VLC)
+as a means of data transmission. VLC is efficient by providing illumination combined with
+high-speed data transmission, offering an alternative to radio frequency communication methods where
+spectral limits have been reached, or interference is an issue. The bi-directional system design features
+custom Printed Circuit Boards (PCBs) and is fundamentally based on Variable Pulse Position Modulation (VPPM).
+Field-programmable Gate Array (FPGA) boards are used to achieve high-speed data
+processing. A user interface can initiate the transmission of an RGB-encoded image through a free-space
+downlink channel. A 153.6 kB image can be reconstructed in 6.9 s using a data rate of 200 kbit/s combined
+with Hamming (8, 1) code for single-bit error detection at the receiver end. The project achieved a
+Bit Error Rate (BER) of 1.9E−4 for a channel length of 20 cm, demonstrating the reliability and feasibility
+of VLC for future wireless communication applications. An image was reconstructed with channel
+lengths up to 60 cm at variable white-LED dimming levels. The project was designed to be displayed at
+the Museum of Communications as an example of VLC technology
