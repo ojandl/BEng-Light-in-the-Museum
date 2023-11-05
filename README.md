@@ -19,6 +19,9 @@ The top level overview of the designed system is shown below. Note that this rep
   + Source codes for reconstructing Vivado project for the transmitter FPGA
   + Software code (C) running on Microblaze core
 + Documentation
-  + Instructions, required software, hardware used, thesis abstract,...
+  + Instructions, hardware used, thesis abstract,...
 
 Please consult the README.md file found within the corresponding subdirectory for further details about each section.
+
+**Required Software**
+During Light in the Museum, the software package Vivado 2019.1 from Xilinx was used for hardware programming. Xilinx SDK 2019.1 was then used to create the necessary softwawre. These programs are available from the Download section of the Xilinx website.
