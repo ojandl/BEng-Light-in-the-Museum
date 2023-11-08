@@ -6,7 +6,7 @@
 **Date of submission:** 3. 5. 2023<br>
 </p>
 
-
+**Overview**<br>
 The top level overview of the designed system is shown below. Note that this repository solely concerns digital subsystems (blocks contained within the light blue background in the figure below). Information regarding analogue subsystems can be found in the thesis.
 
 ![image](https://github.com/ojandl/BEng-Light-in-the-Museum/assets/147755709/b54069c1-cf0c-4e08-94c1-e1fd5831fb05)
