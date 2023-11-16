@@ -26,7 +26,10 @@ IV. Add custom IP to design
   3. Add two *Constant* blocks to your design by clicking the 'plus' icon in the top bar. For the first constant block, configure it by a double-click to a value of '0' and a width of '1'. Then, connect its output pin to the *in1* input pin of the microblaze_0_xlconcat block. For the second constant block, set the value to '0', width to '12' and then connect this to the 'device_temp_i[11:0] input of the Memory Interface Generator block.
 
 V. Make connections between IP blocks
-  1. Find the block diagram template named Tx_block_diagram.pdf found within the Tx folder of this github project. Use it as a template to finish all missing connections in your block design. Any necessary external input/output pins can be added by clicking on a input/output node of an IP block and typing Ctrl+K. You can use the 'make connections automatically' tool for any AXI connections to avoid the configuraition of the AXI Interconnect block.
+  1. Find the block diagram template named vppm_new.pdf found within the Tx folder of this github project. Use it as a template to finish all missing connections in your block design. Any necessary external input/output pins can be added by clicking on a input/output node of an IP block and typing Ctrl+K. You can use the 'make connections automatically' tool for any AXI connections to avoid the configuraition of the AXI Interconnect block.
 
 VI. Validate project, add constraints and create bitfile
-  1. 
+  1. Press the 'validate design' button on the top menu bar (or press F6) to validate all connections. Fix any errors reported.
+  2. Right-click on the block design name found within the 'sources' section on the left-hand side of the screen. Click on *Create HDL Wrapper...* and Vivado manage wrapper in the next dialogue.
+  3. Set the created wrapper as top by right-clicking on the wrapper and selecting *Set as Top*.
+  4. Add the constaint file named Arty-S7-25-Master.xdc
