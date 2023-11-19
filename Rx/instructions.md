@@ -15,7 +15,7 @@ II. Add and configure Zynq core
 IV. Add custom IP to design
 
   1. Import all verilog sources from the *verilog* directory found on this github page to the *design sources* tab in Vivado.
-  2. Drag-and-drop the following custom IP modules from the *design sources* tab into your design block diagram: *partialwrappernew, fbsbdecoder, axi_slave_wrapper, pwm*.
+  2. Drag-and-drop the following custom IP modules from the *design sources* tab into your design block diagram: *partialwrappernew, fbsbdecoder, axi_slave_wrapper, pwm, slowClock*.
 
 V. Make connections between IP blocks
   1. Find the block diagram template named ADC_vppm.pdf found within the Rx folder of this github project. Use it as a template to finish all missing connections in your block design. Any necessary external input/output pins can be added by clicking on a input/output node of an IP block and typing Ctrl+K. You can use the 'make connections automatically' tool for any AXI connections to avoid the configuraition of the AXI Interconnect block.
