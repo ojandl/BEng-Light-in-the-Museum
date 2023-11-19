@@ -32,4 +32,5 @@ VI. Validate project, add constraints and create bitfile
   1. Press the 'validate design' button on the top menu bar (or press F6) to validate all connections. Fix any errors reported.
   2. Right-click on the block design name found within the 'sources' section on the left-hand side of the screen. Click on *Create HDL Wrapper...* and Vivado manage wrapper in the next dialogue.
   3. Set the created wrapper as top by right-clicking on the wrapper and selecting *Set as Top*.
-  4. Add the constaint file named Arty-S7-25-Master.xdc
+  4. Add the constaints file named Arty-S7-25-Master.xdc to the project
+  5. Create bitfile through synthesis and implementation and then export the hardware. Upon completing this, you will be able to move on to building software by launching SDK
